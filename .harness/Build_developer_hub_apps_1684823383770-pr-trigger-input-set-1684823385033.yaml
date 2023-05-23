@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_developer_hub_apps_1684823383770-pr-trigger-input-set
+  identifier: Build_developer_hub_apps_1684823383770prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: MSYS
+  pipeline:
+    identifier: Build_developer_hub_apps_1684823383770
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
