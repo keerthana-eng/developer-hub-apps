@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_developer_hub_apps_1684823383770-push-trigger-input-set
+  identifier: Build_developer_hub_apps_1684823383770pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: MSYS
+  pipeline:
+    identifier: Build_developer_hub_apps_1684823383770
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
